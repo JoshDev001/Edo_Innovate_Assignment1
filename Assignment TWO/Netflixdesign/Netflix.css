@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body{
+    color: black;
+}
+.container{
+    height: 100%;
+    width:100%;
+}
+
+    @media screen and (max-width: 950px){
+        .container{
+            width: 45vw;
+            height: 50%;
+        }
+    }
+    
+
+
+.firstpage .imgone{
+   position: relative;
+   height: 580px;
+   width: 100%;   
+   
+}
+.showcase{
+    width: 100vw;
+    height: 580px;
+    position: absolute;
+    display: flex;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+.showcase-top{
+    position: absolute;
+    top: 0;   
+    justify-content: center;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 1000px;
+   
+   
+}
+.signup{
+    /* flex-direction: row; */
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+}
+.imgtwo{
+    width: 150px;
+    margin-top: 10px;
+    
+}
+.showcase-content{
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+    /* bottom: 35vh; */
+    width: 50%;
+    color: white;
+    font-family: sans-serif;
+    /* height: 50vh; */
+    /* width: max-content;
+    height: max-content; */
+    
+}
+.Unlimited{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.watch{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.Ready{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 15px;
+
+}
+.input{
+    display: flex ;
+    gap: 2px;
+    margin-left: 25px;
+    justify-content: center;
+    width: 95%;
+    
+    
+}
+.email{
+    width: 400px;
+    height: 55px;
+    border:rgba(0, 0, 0, 0.6);
+    box-shadow: 2px;
+    padding-left: 5px;
+}
+.getstarted{
+    width: 200px;
+    text-decoration: none;
+    background-color: red;
+    padding-top: 15px;
+    font-weight: 20px;
+    color:white;
+    text-align: center;
+}
+.line{
+    width: 100vw;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+}
+.secondpage{
+    background-color:#000000;
+   width:100vw;
+   height: 380px;
+
+}
+.Enjoy{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   
+   /* align-items:center; */
+   /* row-gap: 5px; */
+   justify-items: center;
+   margin-left: 200px;
+   gap: 5px;
+    width: 80vw;
+   
+  
+}
+.Smart{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    margin-top:120px;
+
+    
+    
+}
+
+.Smart h1{
+margin-bottom: 15px;
+font-size: 35px;
+
+
+}
+.Smart h3{
+    line-height: 28px;
+    font-weight: lighter;
+}
+
+.TV{
+    margin-top: 20px;
+    justify-self: left;
+}
+
+
+.secondpage2{
+    background-color: black;
+   /* position: relative; */
+   width:100vw;
+   height: 380px;
+}
+.Enjoy2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 80vw;
+    justify-items: center;
+    margin-left: 180px;
+    /* padding: 0 100px; */
+    gap: 50px;
+   
+}
+
+.TV2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    margin-top: 100px;
+    margin-left: -100px;
+    width: 35vw;
+    
+
+}
+.TV2 h1{
+    text-align: left;
+    margin-bottom: 15px;
+}
+.TV2 h3{
+    line-height: 28px;
+    font-weight: lighter;
+}
+.smart2{
+    margin-top: 40px;
+}
+.Smart2 img{
+    margin-left: 30px;
+    
+}
+.icon{
+    height: 80px;
+    width: 250px;
+    background-color: black;
+    position: absolute;
+    left: 275px;
+    top: 175vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 8px;
+    border-radius: 15px;
+   border-style: solid;
+   border-color: grey;
+   border-width: 1px;
+    
+}
+.icon img{
+    width:45px;
+    height: 65px;
+    margin-left: 10px;
+}
+.icon h5{
+    font-family: sans-serif;
+    color: white;
+    margin-top: -10px;
+
+}
+.secondpage3{
+    display: flex;
+    background-color: black;
+   align-items: center;
+    width:100vw;
+    height: 160px;
+
+ 
+}
+.smart3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+/* background-color: blue; */
+margin-left: 250px;
+
+}
+.smart3 h1{
+        font-size: 35px;
+       margin-bottom: 20px;
+       font-weight: 550px;
+        
+}
+.smart3 h3{
+    line-height: 28px;
+    font-weight: lighter; 
+}
+.details{
+    /* width: 100vw; */
+    height: 900px;
+background-color: black;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding-top: 50px;
+
+
+}
+.details h1{
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+summary{
+   font-size: 20px;
+   padding: 10px;
+
+
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100vw;
+    height: 250px;
+   
+
+}
+details.styled{
+    padding: 1em;
+    border: none;
+    /* border-radius: 4px; */
+    margin-bottom: 20px;
+    width: 55vw;
+    text-align: left;
+    background-color: rgb(41, 40, 40);
+    
+}
+.styled summary{
+    outline: none;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.styled summary hr{
+    outline-color: black;
+    width: 20px;
+}
+.styledcontent{
+   padding: 20px;
+   font-size: 20px;
+
+}
+.endinginput{
+    margin-top: 30px;
+}
+.container3{
+    /* background-color: green; */
+    list-style-type: none;
+    /* text-decoration: none; */
+    text-align: left;
+    display: grid;
+    /* justify-content: center; */
+    grid-template-columns: 2fr 2fr 2fr 1fr;
+    gap: 5px;
+    margin-top: 60px;
+    margin-left: 300px;
+    font-family: sans-serif;
+    width: 55%;
+    height: 150px;
+
+
+
+}
+.TV4 a{
+    margin-bottom: 10px;
+    width: 70px;
+    line-height: 30px;
+    color: gray;
+    text-decoration: none;
+    margin-bottom: 40px;
+    
+
+}
+
+.TV5 a{
+    margin-bottom: 10px;
+    width: auto;
+    line-height: 30px;
+    color: gray;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+.TV6 a{
+    margin-bottom: 10px;
+    width: auto;
+    line-height: 30px;
+    color: gray;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+.TV7 a{
+    margin-bottom: 10px;
+    width: auto;
+    line-height: 40px;
+    color: gray;
+    text-decoration: none;
+}
+
+.TV8 a{
+    margin-top: 100px;
+    width: auto;
+    line-height: 40px;
+    color: gray;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.TV3 a {
+    list-style-type: none;
+    line-height: 35px;
+    color: gray;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-left: 280px;
+    padding-top: 15px;
+}

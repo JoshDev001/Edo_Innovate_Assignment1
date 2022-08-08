@@ -1,0 +1,805 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000;
+    color: white;
+    position: relative;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    z-index: 100;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    z-index: 0;
+    margin: 0%;
+    padding: 0 0;
+    height: 97vh;
+    width: 100%;
+    background: linear-gradient(to top, #000000d0, transparent),
+        linear-gradient(to bottom, #000000d0, transparent), url(images/netflix.png);
+    background-size: cover;
+}
+
+.header-top {
+    position: relative;
+    z-index: 1000;
+    height: 90px;
+    width: 100vw;
+}
+
+.header-top img {
+    width: 200px;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+}
+
+.header-top a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #e50914;
+    padding: .7rem 1.2rem;
+    position: absolute;
+    top: 55%;
+    border-radius: .4rem;
+    right: 7%;
+}
+
+.header-content {
+    opacity: 10;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    text-align: center;
+    top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-content .heading h1 {
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.header-content .heading p:first-of-type {
+    font-size: 1.7rem;
+    color: #fff;
+    font-weight: 400;
+    padding: 1rem 0;
+}
+
+.header-content .heading p:nth-of-type(2n) {
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+}
+
+.header-content .content-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.content-input input {
+    font-size: 16px;
+    border: 1px solid #8c8c8c;
+    color: black;
+    padding: 20px 10px;
+    height: 63px;
+    width: 50%;
+}
+
+.content-input a {
+    font-size: 2rem;
+    background-color: #e50914;
+    color: white;
+    padding: .7rem;
+    height: 63px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+main .slideone {
+    padding: 10%;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 65vh
+}
+
+.slide1text {
+    text-decoration: center;
+}
+
+.slide1text h1 {
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+
+.slide1text p {
+    font-size: 1.5rem
+}
+
+main .slideone .slide0neimg img:first-of-type {
+    float: right;
+    margin: auto 10%;
+    object-fit: contain;
+    width: 70%;
+}
+
+.slide0neimg img:last-of-type {
+    position: absolute;
+    right: 19.7%;
+    object-fit: contain;
+    top: 27%;
+    width: 23%;
+}
+
+main .slidetwo {
+    padding: 10% 5%;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 65vh
+}
+
+.slide2text {
+    text-decoration: center;
+}
+
+.slide2text h1 {
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+
+.slide2text p {
+    font-size: 1.5rem
+}
+
+main .slidetwoimg img {
+    float: left;
+    object-fit: contain;
+    width: 90%;
+}
+
+main .slide3 {
+    padding: 10% 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 35vh
+}
+
+.slide3text {
+    text-decoration: center;
+}
+
+.slide3text h1 {
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+
+.slide3text p {
+    font-size: 1.7rem
+}
+
+main .slidefour {
+    padding: 10% 5%;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70vh
+}
+
+.slide4text {
+    text-decoration: center;
+}
+
+.slide4text h1 {
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+
+.slide4text p {
+    font-size: 1.5rem
+}
+
+main .slidefourimg img {
+    float: left;
+    object-fit: contain;
+    width: 80%;
+}
+
+.aboutnetflix {
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutnetflix h1 {
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+.aboutnetflix .list {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutnetflix .list details {
+    width: 80%;
+    height: 10%;
+    background-color: #303030;
+}
+
+
+.aboutnetflix .list summary {
+    width: 100%;
+    margin-left: 1.5rem;
+    padding: 25px 25px;
+}
+
+.aboutnetflix .list summary:focus {
+    outline-style: none;
+}
+
+.aboutnetflix .list summary::marker {
+    content: "";
+}
+
+.aboutnetflix .list p {
+    margin: 2%;
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+.lastinput {
+    text-align: center;
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.lastinput p {
+    font-size: 1.2rem;
+    padding: 2%;
+}
+
+.lastinput .content-input {
+    display: flex;
+    justify-content: center;
+}
+
+.signcontainer {
+    height: 100vh;
+}
+
+.formbody {
+    color: #303030;
+    position: absolute;
+    top: 14%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.formbody .form {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    background-color: #0000008c;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formbody .form .form1 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form .form1 h2 {
+    font-size: 1.7rem;
+    margin-top: 15%;
+}
+
+.form .form1 input {
+    padding-left: 1rem;
+    height: 3rem;
+    margin-top: 1.9rem;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background-color: #303030;
+    width: 100%;
+
+}
+
+.form .form1 input:focus {
+    outline-style: none;
+}
+
+.form .form1 button {
+    font-size: 1rem;
+    height: 3rem;
+    margin-top: 3rem;
+    border: none;
+    color: white;
+    background-color: #d60812;
+    width: 100%;
+}
+
+.form .form2 {
+    color: #8c8c8c;
+    width: 85%;
+    font-size: .7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.form .form2input {
+    padding: 2rem 0;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.form .form2 .form2input input[type="checkbox"] {
+    width: 10%;
+    background-color: #303030;
+    color: black;
+}
+
+.form .formtext {
+    color: #8c8c8c;
+    margin-bottom: 15%;
+    width: 100%;
+}
+
+footer {
+    height: 40vh;
+    margin: 0;
+    padding: 0;
+}
+
+footer .rows {
+    background-color: #000;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1rem;
+    color: #8c8c8c;
+}
+
+footer .foot1 {
+    line-height: 2rem;
+}
+
+@media screen and (max-width:1024px) {
+
+
+    .slide0neimg img:last-of-type {
+        opacity: 0;
+    }
+}
+
+@media screen and (min-width:750px) and (max-width:990px) {
+    * {
+        width: 100%;
+    }
+
+    .header-top img {
+        width: 170px;
+    }
+
+    .header-top a {
+        text-align: center;
+        padding: .5rem 1rem;
+        width: 12%;
+    }
+
+    .content-input {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-input input {
+        width: 70%;
+        margin-bottom: 1rem;
+    }
+
+    .content-input a {
+        width: 35%;
+        text-align: center;
+        line-height: 2.4rem;
+        font-size: 1.7rem;
+    }
+
+    .header .heading h1 {
+        font-size: 3rem;
+    }
+
+    .header .heading p:first-of-type {
+        font-size: 1.3rem;
+    }
+
+    .header-content .heading p:nth-of-type(2n) {
+        font-size: 1rem;
+        padding: .8rem 0;
+    }
+
+    .content-input input {
+        height: 60px;
+    }
+
+    .content-input a {
+        height: 58px;
+    }
+
+    .slideone {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .slide1text h1 {
+        font-size: 2.5rem;
+        padding-top: 3rem;
+        margin-top: 1rem;
+    }
+
+    .slide1text p {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    body>div>main>div.slideone>div.slide0neimg>img:nth-child(1) {
+        width: 45%;
+        margin-bottom: 4rem;
+        margin-right: 25%;
+    }
+
+    .slidetwo {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slide2text h1 {
+        font-size: 2rem;
+        padding-top: 3rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .slide2text p {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    body>div>main>div.slidetwo>div.slidetwoimg>img {
+        width: 50%;
+        margin-bottom: 4rem;
+        margin-left: 10rem;
+
+    }
+
+    .slide3 {
+        text-align: center;
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .slide3text h1 {
+        font-size: 2.5rem;
+    }
+
+    .slide3text p {
+        font-size: 1.2rem;
+    }
+
+    .slidefour {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .slide4text h1 {
+        font-size: 2rem;
+        padding-top: 3rem;
+    }
+
+    .slide4text p {
+        font-size: 1rem;
+    }
+
+    body>div>main>div.slidefour>div.slidefourimg>img {
+        width: 30%;
+        margin-left: 22%;
+    }
+
+    .aboutnetflix h1 {
+        font-size: 1.7rem;
+        margin-left: 30%;
+    }
+
+    body>div>main>div.aboutnetflix>div.list>details p {
+        font-size: 1.1rem;
+    }
+
+    .lastinput p {
+        font-size: 1.1rem;
+    }
+
+    .lastinput .content-input {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:870px) and (min-width:420px) {
+
+    body>div>header>div.header-top>img {
+        width: 130px;
+    }
+
+    .header-top a {
+        padding: .3rem .7rem;
+        position: absolute;
+        top: 35%;
+    }
+
+
+    .content-input input {
+        width: 70%;
+        height: 55px;
+    }
+
+    .content-input a {
+        width: 32%;
+        font-size: 1.2rem;
+    }
+
+    .header .heading h1 {
+        font-size: 2.5rem;
+    }
+
+    .header .heading p:first-of-type {
+        font-size: 1.1rem;
+    }
+
+    .header .heading p:nth-of-type(2n) {
+        font-size: .8rem;
+        padding: .6rem 0;
+    }
+
+}
+
+@media screen and (max-width:760px) {
+
+    .header {
+        width: 100vw;
+    }
+
+    .header-top img {
+        width: 120px;
+        background-size: contain;
+    }
+
+    .header-top a {
+        top: 33%;
+        padding: .3rem .8rem;
+    }
+
+    .content-input {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-input input {
+        width: 120%;
+        height: 40px;
+        margin-bottom: 1rem;
+        position: relative;
+    }
+
+    .content-input a {
+        height: 40%;
+        font-size: 1.1rem;
+    }
+
+    .header .header-content {
+        flex-direction: column;
+        margin-top: 30px;
+        justify-content: flex-start;
+    }
+
+    .header .heading h1 {
+        font-size: 1.8rem;
+        margin-top: 10%;
+    }
+
+    .header .heading p:first-of-type {
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+    .header-content .heading p:nth-of-type(2n) {
+        font-size: 1rem;
+    }
+
+    .slideone {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slide1text h1 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .slide1text p {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    body>div>main>div.slideone>div.slide0neimg>img:nth-child(1) {
+        margin-top: none;
+        width: 50%;
+    }
+
+
+    .slidetwo {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slide2text h1 {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .slide2text p {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    body>div>main>div.slidetwo>div.slidetwoimg>img {
+        width: 50%;
+        margin-top: none;
+    }
+
+    .slide3 {
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .slide3 h1 {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .slide3text p {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+
+
+    .slidefour {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .slide4text h1 {
+        font-size: 1.8rem;
+        padding-top: 3rem;
+        margin-top: 1rem;
+    }
+
+    .slide4text p {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    body>div>main>div.slidefour>div.slidefourimg>img {
+        width: 60%;
+        margin-bottom: 4rem;
+    }
+
+    .aboutnetflix {
+        width: 100vw;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .aboutnetflix h1 {
+        font-size: 1.5rem;
+        text-align: center;
+
+    }
+
+    body>div>main>div.aboutnetflix>div.list>details {
+        width: 100%;
+    }
+
+    body>div>main>div.aboutnetflix>div.list>details summary {
+        font-size: .6rem;
+        float: left;
+        padding: 1.4rem 1rem;
+    }
+
+    body>div>main>div.aboutnetflix>div.list>details p {
+        font-size: .8rem;
+    }
+
+    .lastinput {
+        width: 70%;
+    }
+
+    .lastinput p {
+        font-size: 1rem;
+    }
+
+    .footer .rows p {
+        font-size: .7rem;
+    }
+}
