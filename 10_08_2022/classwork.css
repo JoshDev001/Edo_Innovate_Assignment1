@@ -1,0 +1,44 @@
+.snap{
+    margin-left: 15px;
+}
+.features{
+    margin: 20px;
+}
+.company{
+    margin: 20px;
+}
+.careers{
+    margin: 20px;
+}
+.about{
+    margin: 20px;
+}
+.login{
+    text-decoration: none;
+    padding: 20px;
+    margin-left: -15px;
+    color: black;
+
+}
+.main-intro{
+    margin-top: 30px;
+    height: 100%;
+    padding: 50px;
+}
+.main-outro{
+    margin-top: 20px;
+    line-height: px;
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+.learnmore{
+    margin-bottom: 40px;
+    padding:5px;
+}
+.icon{
+    margin-right: 30px;
+    padding: 5px;
+}
+.main-int_ro{
+ width: 100%;
+}
